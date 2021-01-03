@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+i {
+    color: rgba(225, 255, 255);
+    font-size: 3rem;
+    pointer-events: auto;
+    cursor: pointer;
+}
+
+i:hover {
+    color: rgba(167, 11, 245);
+}
+
+.slider {
+    position: absolute;
+    left: 10%;
+    top: 30%;
+    width: 80%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.slider-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 200%;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+    pointer-events: none;
+}
+
+.slide-img {
+    height: 100%;
+    background-color: black;
+    text-align: center; 
+    padding: 3rem;
+}
