@@ -21,7 +21,11 @@ i:hover {
     top: 30%;
     width: 80%;
     height: 200px;
-    overflow: hidden;
+    overflow-x: scroll;
+}
+
+.slider::-webkit-scrollbar {
+    display: none;
 }
 
 .slider-inner {
