@@ -5,7 +5,7 @@ let scrollLeft;
 
 slider.addEventListener('mousedown', e => { // É disparado quando o botão esquedo do mouse é pressionado
   isDown = true;
-  slider.classList.add('active');
+  slider.classList.add('active'); 
   startX = e.pageX - slider.offsetLeft;
   scrollLeft = slider.scrollLeft;
 });
